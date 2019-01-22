@@ -51,8 +51,8 @@
     }).
 
 -include("include/cron.hrl").
--include("include/zotonic.hrl").
--include_lib("modules/mod_admin/include/admin_menu.hrl").
+-include("../include/zotonic.hrl").
+-include_lib("../modules/mod_admin/include/admin_menu.hrl").
 
 %% Server will subscribe on this events on init() and unsubscribe on terminate().
 -define(MOD_SRV_SUBSCRIBE, [cron_job_start, cron_job_stop]).

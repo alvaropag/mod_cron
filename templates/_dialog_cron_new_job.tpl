@@ -2,7 +2,7 @@
 
 {% wire id=#form type="submit"
 	postback="insert_job"
-	delegate="resource_cron_admin"
+	delegate="controller_cron_admin"
 %}
 <form id="{{ #form }}" method="POST" action="postback">
 
